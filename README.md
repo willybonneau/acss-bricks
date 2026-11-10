@@ -1,5 +1,7 @@
 # acss-bricks
 
+by / par **Willy Bonneau**
+
 [English](#english) · [Français](#français)
 
 ---
@@ -73,7 +75,7 @@ The site itself is the source of truth. If an ACSS option is disabled in the das
 
 ### License
 
-[MIT](LICENSE)
+[MIT](LICENSE) © 2026 Willy Bonneau
 
 ### Disclaimer
 
@@ -150,7 +152,7 @@ Le site fait foi. Si une option ACSS est désactivée dans le dashboard, sa clas
 
 ### Licence
 
-[MIT](LICENSE)
+[MIT](LICENSE) © 2026 Willy Bonneau
 
 ### Avertissement
 
