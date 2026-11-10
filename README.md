@@ -47,6 +47,10 @@ Then run `/reload-plugins` or start a new chat.
 
 The site itself is the source of truth. If an ACSS option is disabled in the dashboard, its class or variable is not generated, and the agent checks for this before writing.
 
+### License
+
+[MIT](LICENSE)
+
 ### Disclaimer
 
 This is a community skill, not affiliated with Automatic.css or Bricks Builder. Test on a staging site first.
@@ -95,6 +99,10 @@ Puis `/reload-plugins` ou un nouveau chat.
 - CLI ACSS : https://docs.automaticcss.com/cli
 
 Le site fait foi. Si une option ACSS est désactivée dans le dashboard, sa classe ou sa variable n'est pas générée, et l'agent le vérifie avant d'écrire.
+
+### Licence
+
+[MIT](LICENSE)
 
 ### Avertissement
 
