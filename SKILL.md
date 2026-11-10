@@ -5,6 +5,8 @@ description: Utiliser Automatic.css 4 (ACSS 4.x) par défaut pour tout travail W
 
 # ACSS 4 par défaut sur WordPress + Bricks
 
+> Auteur : Willy Bonneau · Licence MIT · https://github.com/willybonneau/acss-bricks
+
 ACSS est la source de vérité du design : réglages, variables, classes, recipes.
 Ne jamais créer de design system parallèle. **ACSS 4 uniquement** : beaucoup de
 noms 3.x n'existent plus (voir §6).
