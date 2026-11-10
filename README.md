@@ -40,6 +40,30 @@ cd ~/.claude/skills/acss-bricks && git pull
 
 Then run `/reload-plugins` or start a new chat.
 
+### Refresh the skill after an ACSS documentation update
+
+Paste this prompt into Claude Code, ideally with the site's MCP connected. Replace `<URL>` with a site running the latest ACSS version:
+
+```
+Update the acss-bricks skill (~/.claude/skills/acss-bricks/SKILL.md)
+following the ACSS documentation update.
+
+1. Run git pull in the skill folder.
+2. Re-read the ACSS 4 docs: https://docs.automaticcss.com and https://docs.automaticcss.com/cli
+   (colors, assignments, typography, spacing, smart spacing, grids,
+   buttons, icons, recipes, CLI commands).
+3. Compare with a real site's state: bricks-get-design-context (summary)
+   and the generated CSS /wp-content/uploads/automatic-css/automatic.css of the site <URL>.
+4. Show me the list of differences (additions, renames, removals)
+   before changing anything.
+5. After approval: edit SKILL.md, keep ACSS 4 only, keep the rule
+   "every setting can be changed except breakpoints",
+   and add any obsolete name to the forbidden list.
+6. Update the README if needed (EN + FR), then commit and push.
+```
+
+Step 6 pushes to this repository. If you don't have write access, fork it first and clone your fork.
+
 ### Sources
 
 - ACSS 4 documentation: https://docs.automaticcss.com
@@ -92,6 +116,30 @@ cd ~/.claude/skills/acss-bricks && git pull
 ```
 
 Puis `/reload-plugins` ou un nouveau chat.
+
+### Actualiser la compétence après une mise à jour de la doc ACSS
+
+Collez ce prompt dans Claude Code, idéalement avec le MCP du site connecté. Remplacez `<URL>` par un site qui a la dernière version d'ACSS :
+
+```
+Mets à jour la compétence acss-bricks (~/.claude/skills/acss-bricks/SKILL.md)
+suite à la mise à jour de la documentation ACSS.
+
+1. git pull dans le dossier de la compétence.
+2. Relis la doc ACSS 4 : https://docs.automaticcss.com et https://docs.automaticcss.com/cli
+   (couleurs, assignations, typographie, espacements, smart spacing, grilles,
+   boutons, icônes, recipes, commandes CLI).
+3. Compare avec l'état réel d'un site : bricks-get-design-context (summary)
+   et le CSS généré /wp-content/uploads/automatic-css/automatic.css du site <URL>.
+4. Montre-moi la liste des différences (ajouts, renommages, suppressions)
+   avant de modifier quoi que ce soit.
+5. Après validation : édite SKILL.md, garde ACSS 4 uniquement, garde la règle
+   "tous les paramètres modifiables sauf les points de rupture",
+   et ajoute aux interdits tout nom devenu obsolète.
+6. Mets le README à jour si besoin (EN + FR), puis commit et push.
+```
+
+L'étape 6 pousse vers ce dépôt. Sans droit d'écriture, faites d'abord un fork et clonez votre fork.
 
 ### Sources
 
